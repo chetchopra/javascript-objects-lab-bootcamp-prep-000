@@ -5,3 +5,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
   newo[key] = value;
   return newo;
 }
+
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  object[key] = value;
+  return value;
+}
